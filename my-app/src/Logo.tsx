@@ -12,6 +12,7 @@ const mapStateToLogoState = (isCodeState: boolean): LogoState =>
 const Logo = ({ isCodeState }: LogoProps) => {
   return (
     <div className={`${mapStateToLogoState(isCodeState)} container`}>
+      <div className="sun" />
       <div className="line one" />
       <div className="line two" />
       <div className="line three" />
@@ -20,8 +21,14 @@ const Logo = ({ isCodeState }: LogoProps) => {
       <div className="line six" />
       <div className="line seven" />
       <div className="line eight" />
-      <span className="axis x" />
-      <span className="axis y" />
+      <div className="letters">
+        <span className="letter c">
+          c<span className="rest">lint</span>
+        </span>
+        <span className="letter m">
+          m<span className="rest">ilner</span>
+        </span>
+      </div>
     </div>
   );
 };
