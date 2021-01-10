@@ -21,6 +21,7 @@
 :root {
     /*--top-line: 33%;*/
     /*--bottom-line: 33%;*/
+    --stroke-color: #fafafa;
     --full: 500px;
 }
 
@@ -31,7 +32,7 @@
     position: relative;
     margin: auto;
     transition: all 0.5s ease;
-    background: url("IMG_0049.jpg") no-repeat top left;
+    /*background: url("IMG_0049.jpg") no-repeat top left;*/
 }
 
 .container.code {
@@ -44,6 +45,7 @@
 
 .axis {
     background: white;
+    /*background: transparent;*/
     width: 1px;
     height: var(--full);
     display: inline-block;
@@ -57,14 +59,17 @@
 .line {
     position: absolute;
     width: 15px;
-    background: #fafafa;
-    /*top: 50px;*/
-    left: 70px;
+    height: 15px;
+    background: var(--stroke-color);
+    top: 0;
+    left: 50px;
     overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s ease;
 }
 
 .one {
-    background: #ff69b4cc;
+    /*background: #ff69b4cc;*/
     transform: rotateZ(45deg);
 }
 .code .one {
@@ -79,7 +84,7 @@
 }
 
 .two {
-    background: #ffd700cc;
+    /*background: #ffd700cc;*/
     transform: rotateZ(-45deg);
 }
 .code .two {
@@ -88,13 +93,13 @@
 }
 .mountain .two {
     height: 60px;
-    top: 188px;
-    left: 99px;
-    transform: rotateZ(-30deg);
+    top: 184px;
+    left: 97px;
+    transform: rotateZ(-38deg);
 }
 
 .three {
-    background: #ff6347cc;
+    /*background: #ff6347cc;*/
     transform: rotateZ(45deg);
 }
 .code .three {
@@ -109,7 +114,7 @@
 }
 
 .four {
-    background: #6495edcc;
+    /*background: #6495edcc;*/
     transform: rotateZ(-45deg);
 }
 .code .four {
@@ -124,19 +129,19 @@
 }
 
 .five {
-    background: #2e8b57cc;
+    /*background: #2e8b5755;*/
     transform: rotateZ(15deg);
 }
 .code .five {}
 .mountain .five {
-    top: 73px;
     left: 298px;
     transform: rotateZ(35deg);
-    height: 183px;
+    top: 69px;
+    height: 191px;
 }
 
 .six {
-    background: #f08080cc;
+    /*background: #f0808033;*/
     transform: rotateZ(15deg);
 }
 .code .six {}
@@ -148,25 +153,25 @@
 }
 
 .seven {
-    background: #fafafacc;
+    /*background: #fafafacc;*/
     transform: rotateZ(-90deg);
 }
 .code .seven {}
 .mountain .seven {
-    top: 188px;
-    left: 243px;
-    height: 480px;
+    top: 190px;
+    left: 242px;
+    height: 475px;
 }
 
 .eight {
-    background: #cd853fcc;
+    /*background: #cd853fcc;*/
     transform: rotateZ(-90deg);
 }
 .code .eight {}
 
 .mountain .eight {
-    top: 365px;
+    top: 370px;
     left: 126px;
-    height: 240px;
+    height: 235px;
 }
 
