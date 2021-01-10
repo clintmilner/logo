@@ -1,0 +1,172 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+:root {
+    /*--top-line: 33%;*/
+    /*--bottom-line: 33%;*/
+    --full: 500px;
+}
+
+.container {
+    width: var(--full);
+    height: var(--full);
+    border: 5px solid;
+    position: relative;
+    margin: auto;
+    transition: all 0.5s ease;
+    background: url("IMG_0049.jpg") no-repeat top left;
+}
+
+.container.code {
+    border-color: gold;
+}
+
+.container.mountain {
+    border-color: coral;
+}
+
+.axis {
+    background: white;
+    width: 1px;
+    height: var(--full);
+    display: inline-block;
+    position: absolute;
+}
+
+.axis.x {
+    transform: rotate(90deg);
+}
+
+.line {
+    position: absolute;
+    width: 15px;
+    background: #fafafa;
+    /*top: 50px;*/
+    left: 70px;
+    overflow: hidden;
+}
+
+.one {
+    background: #ff69b4cc;
+    transform: rotateZ(45deg);
+}
+.code .one {
+    height: 130px;
+    top: 143px;
+}
+.mountain .one {
+    height: 230px;
+    top: 183px;
+    left: 48px;
+    transform: rotateZ(19deg);
+}
+
+.two {
+    background: #ffd700cc;
+    transform: rotateZ(-45deg);
+}
+.code .two {
+    height: 130px;
+    top: 225px;
+}
+.mountain .two {
+    height: 60px;
+    top: 188px;
+    left: 99px;
+    transform: rotateZ(-30deg);
+}
+
+.three {
+    background: #ff6347cc;
+    transform: rotateZ(45deg);
+}
+.code .three {
+    height: 130px;
+    top: 143px;
+}
+.mountain .three {
+    top: 104px;
+    left: 138px;
+    height: 143px;
+    transform: rotateZ(23deg);
+}
+
+.four {
+    background: #6495edcc;
+    transform: rotateZ(-45deg);
+}
+.code .four {
+    height: 130px;
+    top: 225px;
+}
+.mountain .four {
+    top: 82px;
+    left: 249px;
+    transform: rotateZ(-32deg);
+    height: 333px;
+}
+
+.five {
+    background: #2e8b57cc;
+    transform: rotateZ(15deg);
+}
+.code .five {}
+.mountain .five {
+    top: 73px;
+    left: 298px;
+    transform: rotateZ(35deg);
+    height: 183px;
+}
+
+.six {
+    background: #f08080cc;
+    transform: rotateZ(15deg);
+}
+.code .six {}
+.mountain .six {
+    top: 74px;
+    left: 407px;
+    transform: rotateZ(-21deg);
+    height: 340px;
+}
+
+.seven {
+    background: #fafafacc;
+    transform: rotateZ(-90deg);
+}
+.code .seven {}
+.mountain .seven {
+    top: 188px;
+    left: 243px;
+    height: 480px;
+}
+
+.eight {
+    background: #cd853fcc;
+    transform: rotateZ(-90deg);
+}
+.code .eight {}
+
+.mountain .eight {
+    top: 365px;
+    left: 126px;
+    height: 240px;
+}
+
