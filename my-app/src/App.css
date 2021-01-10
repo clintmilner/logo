@@ -62,8 +62,8 @@
 }
 
 .axis {
-    background: white;
-    /*background: transparent;*/
+    /*background: white;*/
+    background: transparent;
     width: 1px;
     height: var(--full);
     display: inline-block;
@@ -163,7 +163,8 @@
 
 .five {
     /*background: #2e8b5755;*/
-    background: linear-gradient(0, var(--purp1) 0%, var(--purp1) 25%, var(--purp2) 25%, var(--purp2) 50%, var(--purp3) 50%, var(--purp3) 75%, var(--purp4) 75%, var(--purp4) 100%);
+    /*background: linear-gradient(0, var(--purp1) 0%, var(--purp1) 25%, var(--purp2) 25%, var(--purp2) 50%, var(--purp3) 50%, var(--purp3) 75%, var(--purp4) 75%, var(--purp4) 100%);*/
+    background: repeating-linear-gradient(0, var(--purp4), var(--purp3), var(--purp2), var(--purp1));
 
     transform: rotateZ(15deg);
 }
@@ -177,7 +178,8 @@
 
 .six {
     /*background: #f08080cc;*/
-    background: linear-gradient(0, var(--purp1) 0%, var(--purp1) 25%, var(--purp2) 25%, var(--purp2) 50%, var(--purp3) 50%, var(--purp3) 75%, var(--purp4) 75%, var(--purp4) 100%);
+    /*background: linear-gradient(0, var(--purp1) 0%, var(--purp1) 25%, var(--purp2) 25%, var(--purp2) 50%, var(--purp3) 50%, var(--purp3) 75%, var(--purp4) 75%, var(--purp4) 100%);*/
+    background: repeating-linear-gradient(0, var(--purp4), var(--purp3), var(--purp2), var(--purp1));
 
     transform: rotateZ(20deg);
 }
@@ -196,7 +198,8 @@
 
 .seven {
     /*background: #fafafacc;*/
-    background: linear-gradient(0, var(--warm1) 0%, var(--warm1) 14.2857142857%, var(--warm2) 14.2857142857%, var(--warm2) 28.5714285714%, var(--warm3) 28.5714285714%, var(--warm3) 42.8571428571%, var(--warm4) 42.8571428571%, var(--warm4) 57.1428571429%, var(--warm5) 57.1428571429%, var(--warm5) 71.4285714286%, var(--warm6) 71.4285714286%, var(--warm6) 85.7142857143%, var(--warm7) 85.7142857143%);
+    /*background: linear-gradient(24deg, var(--warm1) 0%, var(--warm1) 14.2857142857%, var(--warm2) 14.2857142857%, var(--warm2) 28.5714285714%, var(--warm3) 28.5714285714%, var(--warm3) 42.8571428571%, var(--warm4) 42.8571428571%, var(--warm4) 57.1428571429%, var(--warm5) 57.1428571429%, var(--warm5) 71.4285714286%, var(--warm6) 71.4285714286%, var(--warm6) 85.7142857143%, var(--warm7) 85.7142857143%);*/
+    background: repeating-linear-gradient(24deg, var(--warm1), var(--warm2) ,  var(--warm3) , var(--warm4) ,  var(--warm5) ,  var(--warm6), var(--warm7));
 
     transform: rotateZ(45deg);
 }
@@ -214,7 +217,8 @@
 
 .eight {
     /*background: #cd853fcc;*/
-    background: linear-gradient(336deg, var(--green1) 0%, var(--green1) 25%, var(--green2) 25%, var(--green2) 50%, var(--green3) 50%, var(--green3) 75%, var(--green4) 75%, var(--green4) 100%);
+    /*background: linear-gradient(24deg, var(--green1) 0%, var(--green1) 25%, var(--green2) 25%, var(--green2) 50%, var(--green3) 50%, var(--green3) 75%, var(--green4) 75%, var(--green4) 100%);*/
+    background: repeating-linear-gradient(24deg, var(--green1), var(--green2), var(--green3), var(--green4));
 
     transform: rotateZ(-45deg);
 }

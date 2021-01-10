@@ -15,8 +15,8 @@ const Logo = ({ isCodeState }: LogoProps) => {
       <div className="line one" />
       <div className="line two" />
       <div className="line three" />
-      <div className="line four" />
       <div className="line five" />
+      <div className="line four" />
       <div className="line six" />
       <div className="line seven" />
       <div className="line eight" />
